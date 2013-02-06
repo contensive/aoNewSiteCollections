@@ -1,0 +1,105 @@
+BODY
+{
+    COLOR: #000000
+}
+P
+{
+    COLOR: #000000
+}
+TD
+{
+    COLOR: #000000
+}
+A
+{
+    COLOR: #000000;
+    TEXT-DECORATION: underline
+}
+.T5Menu
+{
+    BACKGROUND-COLOR: #808dd1
+}
+.T5MenuBackground
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #808dd1
+}
+.T5DividerBackground
+{
+    BACKGROUND-COLOR: #666666
+}
+A.T5Button
+{
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 5px;
+    COLOR: #ffffff;
+    PADDING-TOP: 5px;
+    WHITE-SPACE: nowrap;
+    BACKGROUND-COLOR: transparent
+}
+A.T5Button:hover
+{
+}
+.T5Panel
+{
+    BORDER-RIGHT: #808dd1 1px solid;
+    BORDER-TOP: #808dd1 1px solid;
+    DISPLAY: block;
+    Z-INDEX: 101;
+    VISIBILITY: hidden;
+    BORDER-LEFT: #808dd1 1px solid;
+    BORDER-BOTTOM: #808dd1 1px solid;
+    POSITION: absolute;
+    BACKGROUND-COLOR: #ffffff
+}
+A.T5PanelButton
+{
+    PADDING-RIGHT: 5px;
+    DISPLAY: block;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 5px;
+    COLOR: #808dd1;
+    PADDING-TOP: 5px;
+    WHITE-SPACE: nowrap;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: left
+}
+A.T5PanelButton:link
+{
+}
+A.T5PanelButton:visited
+{
+}
+A.T5PanelButton:hover
+{
+    PADDING-RIGHT: 5px;
+    DISPLAY: block;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 5px;
+    COLOR: #808dd1;
+    PADDING-TOP: 5px;
+    WHITE-SPACE: nowrap;
+    TEXT-ALIGN: left
+}
+A.T5PanelButtonDown
+{
+}
+.HomeImgBG
+{
+    BACKGROUND-IMAGE: 
+}
+.TierImgBG
+{
+    BACKGROUND-IMAGE: url("../../Templatev4/images/ADBlueT.gif")
+}
+.AdditionalPageLinks
+{
+    COLOR: #ffffff
+}
+.PanelReverse
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #808dd1
+}
+

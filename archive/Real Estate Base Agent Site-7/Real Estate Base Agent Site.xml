@@ -1,0 +1,3470 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<Collection name="Real Estate Base Agent Site" guid="{05A8AD38-6412-4AA0-8450-7C9C900AC36E}" system="No" updatable="No">
+	<Help></Help>
+	<data>
+		<record content="copy content" guid="{9D203002-747A-459A-BB44-1742203D0447}" name="AgentHCard">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<br>]]></field>
+		</record>
+		<record content="copy content" guid="{AAE76682-4243-4116-A77F-CF007CC2FE55}" name="AgentVCard">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<br>]]></field>
+		</record>
+		<record content="copy content" guid="{BB5231ED-C5BB-4128-B1BC-74D0C5CB6599}" name="Custom Page - Banner">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<div class="bannerDefault">
+  <div class="bannerLeft">
+    <div class="bannerAgent">{% site "agentname" %}</div>
+    <div class="bannerOffice">{% site "agentofficename" %}</div>
+    <div class="bannerAddress">{% site AgentOfficeAddress1%} {% site AgentOfficeAddress2%}</div>
+  </div>
+  <div class="bannerRight">
+    <div class="bannerQuickNav">
+      <a href="/home"><img src="http://isvr.net/usr/1380538698/TemplateFiles/home.gif" border="0" height="9" width="9"></a><img src="http://isvr.net/usr/1380538698/TemplateFiles/s.gif" border="0" height="6" width="6"><a href="/Contact-Me"><img src="http://isvr.net/usr/1380538698/TemplateFiles/letter.gif" border="0" height="6" width="9"></a><img src="http://isvr.net/usr/1380538698/TemplateFiles/s.gif" border="0" height="6" width="6"><a href="/SiteMap"><img src="http://isvr.net/usr/1380538698/TemplateFiles/site_map.gif" border="0" height="9" width="11"></a>
+    </div>
+    <div class="bannerPhone">{% site "agentPhone" %}</div>
+  </div>
+</div>]]></field>
+		</record>
+		<record content="copy content" guid="{59BCA49F-E1FA-46D8-903C-E97DBF4E04EA}" name="Custom Page - Vertical Menu Content">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"></field>
+		</record>
+		<record content="copy content" guid="{263D9157-7E96-44C3-9623-DAB8078F119E}" name="Custom Page - Footer">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"></field>
+		</record>
+		<record content="copy content" guid="{8F770725-9C82-4E9C-ABE7-698B7B912070}" name="Custom Page - Find a Home">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"></field>
+		</record>
+		<record content="copy content" guid="{F9CBC22D-DAB3-490C-82B1-BAE0BB207725}" name="Custom Page - Featured Homes">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<B></B>]]></field>
+		</record>
+		<record content="copy content" guid="{D06EFCF9-BD9D-4627-9955-AA3A086B70CF}" name="Custom Page - Request Info">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<P><STRONG><FONT size=3>Information Request</FONT></STRONG></P>
+<P>As a professional real estate agent I am here to serve your real estate needs.&nbsp; If you would like or need any further information on any subject please fill out the form below and I will contact <AC type="IMAGE" RecordID="12" Width="288" Height="193" VSpace="10" HSpace="10" Alt="" Align="right" Border="0" Loop="">regarding your concern within 24-hours.&nbsp; If you need faster assistance please call me.</P>]]></field>
+		</record>
+		<record content="copy content" guid="{F496B2CC-5601-43F6-892E-54869AA48362}" name="Custom Page - Banner">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<div class="bannerDefault">
+  <div class="bannerLeft">
+    <div class="bannerAgent">{% site agentname %}</div>
+    <div class="bannerOffice">{% site officename %}</div>
+    <div class="bannerAddress">{% site officeOneLineAddress %}</div>
+  </div>
+  <div class="bannerRight">
+    <div class="bannerQuickNav">
+      <a href="/home"><img height="9" border="0" width="9" src="http://isvr.net/usr/1380538698/TemplateFiles/home.gif"></a>
+      <img height="6" border="0" width="6" src="http://isvr.net/usr/1380538698/TemplateFiles/s.gif">
+      <a href="/Contact-Me"><img height="6" border="0" width="9" src="http://isvr.net/usr/1380538698/TemplateFiles/letter.gif"></a>
+      <img height="6" border="0" width="6" src="http://isvr.net/usr/1380538698/TemplateFiles/s.gif">
+      <a href="/SiteMap"><img height="9" border="0" width="11" src="http://isvr.net/usr/1380538698/TemplateFiles/site_map.gif"></a>
+    </div>
+    <div class="bannerPhone">{% site agentPhone %}</div>
+  </div>
+</div>
+]]></field>
+		</record>
+		<record content="copy content" guid="{4D7534BC-8C53-4959-9F31-2373E7D249C8}" name="Custom Page - Privacy Policy">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1 class=ccHeadline>Privacy Policy</H1>
+<P><SPAN style="FONT-WEIGHT: bold">Committed to protecting your privacy online. </SPAN></P>
+<P>The following privacy statement discloses our policies on gathering information and use practices for this site. This policy is subject to change and revision so please feel free to review this policy at anytime. </P>
+<P><SPAN style="FONT-WEIGHT: bold">Privacy</SPAN> </P>
+<P>This site is designed to provide you with a unique personalized experience. To help us deliver the most appropriate content, our database collects information online. Our database gathers and analyzes your online behavior and self selected preferences. Once this information is catalogued, we can deliver relevant news and content to you every time you visit. </P>
+<P>This site may contain links to other Web sites. KMAnet is not responsible for the privacy practices or the content of such web sites. </P>
+<P><SPAN style="FONT-WEIGHT: bold">Information We Collect and How We Use It </SPAN></P>
+<P>When you register as a visitor, we request your name, address, and e-mail address. We use this information to personalize content and to provide you with accurate information when you call, should you choose to do so. We may also contact you when necessary; to follow up on the status of your registration or to provide you with any additional information you may need. </P>
+<P>We never share your individual information with any third party. </P>
+<P><SPAN style="FONT-WEIGHT: bold">Security</SPAN> </P>
+<P>To prevent unauthorized access, maintain data accuracy, and ensure the correct use of information, we have put in place appropriate physical, electronic, and managerial procedures to safeguard and secure the information we collect online. <BR></P>]]></field>
+		</record>
+		<record content="copy content" guid="{151A01AD-7B48-45C7-920F-511DE8B5A439}" name="Custom Page - Terms of Use">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1>Terms of Use</H1>
+<P>You may view, download, and print contents from the Site subject to the following conditions: (a) the content may be used solely for personal non-commercial information purposes; and (b) the content may not be modified or altered in any way. You may not republish, distribute, or otherwise use the content other than as permitted herein.</P>
+<P>You may not frame or utilize framing techniques to enclose any trademark, logo, or other proprietary information (including images, text, page layout, or form) of the site without the express written consent. </P>
+<P>You do not have or acquire any ownership rights to any content in the Site. <BR></P>]]></field>
+		</record>
+		<record content="copy content" guid="{CD69079D-A4EC-47C7-BEFD-D85C0C663FC4}" name="Custom Page - Legal Notice">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1 class=ccHeadline>Legal Notice </H1>All Rights Reserved. Nothing displayed on this web site may be duplicated or distributed. ]]></field>
+		</record>
+		<record content="copy content" guid="{309DDDB8-F81C-4CD5-9CA6-1E01A1F831F8}" name="Custom Page - Equal Housing Notice">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1 class=ccHeadline>Equal Housing Notice </H1>
+<P><SPAN style="FONT-SIZE: 8pt">All real estate advertised herein is subject to the federal Fair Housing Act, which makes it illegal to advertise "any preference, limitation, or discrimination because of race, color, religion, sex, handicap, familial status, or national origin, or intention to make such preference, limitation or discrimination."</SPAN></P>
+<P><SPAN style="FONT-SIZE: 8pt">We will not knowingly accept or permit any advertisement for real estate that is in violation of the law. All persons are hereby informed that all dwellings&nbsp;herein are available on an equal opportunity basis.</SPAN></P>]]></field>
+		</record>
+		<record content="copy content" guid="{F1C749D4-191D-4E7A-9558-5B5C93C5A7D8}" name="Custom Page - Request Info Form Reply">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<p class=ccHeadline>Information Request Received</p><P><STRONG><FONT size=3>Information Request Received</FONT></STRONG></P>
+<P>Thank you for your request. We will reply promptly. Please continue to visit the site.</P>]]></field>
+		</record>
+		<record content="copy content" guid="{1B021124-3344-4B0B-9241-A4AC4BDF1917}" name="Custom Page - Home Assessment Form">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1>Market Assesment--What is my home worth?</H1>
+<DIV><AC type="IMAGE" RecordID="28" Width="288" Height="230" VSpace="10" HSpace="10" Alt="" Align="left" Border="0" Loop="">The best approach is to price a home just within the market value range. This allows room for negotiation, without sacrificing exposure. Make no mistake, we want you to get the best possible price for your property. However, when a home is priced too high for the market:</DIV>
+<UL>
+<LI>It attracts lookers, not legitimate buyers 
+<LI>It implies that you aren't motivated to sell 
+<LI>It reduces the number of showings 
+<LI>It helps the competition look better 
+<LI>If it doesn't appraise at the higher price, a buyer may not be able to secure a loan</LI></UL>
+<P>To get specifc about the market value range for your home please fill in the questionaire below as completely as you can and I will deliver you a "No Obligation" Market assesment report in a few days to include the following:</P>
+<BLOCKQUOTE dir=ltr style="MARGIN-RIGHT: 0px">
+<P><SPAN style="FONT-WEIGHT: bold">The Market</SPAN>: the market approach is based on the premise that a prudent person will pay no more for a property than it would cost to purchase a comparable substitute.</P>
+<P><SPAN style="FONT-WEIGHT: bold">Competitive Listing and Sale Prices</SPAN>: to form an opinion of value, a I will analyze current listings and sale prices of similar homes in your area. I will consider properties that have recently sold, are currently for sale, or were offered for sale but did not sell. Although none of these properties is identical to yours, only those that have a high degree of similarity are noted in the report.</P>
+<P><SPAN style="FONT-WEIGHT: bold">Comparative Evaluation</SPAN>: I will prepare a detailed description of your property and an estimate of the selling price range in today's market. This is known as the comparative or competitive market value of property.<BR></P></BLOCKQUOTE>]]></field>
+		</record>
+		<record content="copy content" guid="{5ED449E6-6AC1-4F00-9302-B7E938CCD418}" name="Custom Page - Home Assessment Form Reply">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1>Home Assessment Request Received</H1>
+<P>Thank you for your request. We will reply promptly.</P>]]></field>
+		</record>
+		<record content="copy content" guid="{28B90066-DA13-4406-B569-08DD0AB124A0}" name="Custom Page - Featured Homes Not Found">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[There are currently no featured homes to present in this section.]]></field>
+		</record>
+		<record content="copy content" guid="{9844FB3D-FD4C-4925-99AB-8D644DC316E5}" name="Custom Page - Auto Agent">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1>Welcome to Auto Agent</H1>
+<DIV>Are you looking for a property in a certain area, price range, or size? Let Auto Agent search the properties and notify you daily or weekly of interesting possibilities. You set the criteria and Auto Agent does the work.</DIV>]]></field>
+		</record>
+		<record content="copy content" guid="{20C4BC79-E246-4F92-A219-0DB9D913650E}" name="Custom Page - Related Links">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1>Related Links</H1>
+<DIV>Links related to the realty industry.</DIV>]]></field>
+		</record>
+		<record content="copy content" guid="{45A18F18-8787-4561-B800-60B1410DA256}" name="Custom Page - Related Links Request Thank You">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1>Thank You</H1>
+<DIV>Your request has been received and will be reviewed shortly.</DIV>]]></field>
+		</record>
+		<record content="copy content" guid="{2463CE29-631F-4704-978E-D41819B120A4}" name="Custom Page - Related Links Request">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1>Related Links Request</H1>
+<DIV>Use the following form to request a related link on our site.</DIV>]]></field>
+		</record>
+		<record content="copy content" guid="{44FB2FCC-2C96-43AF-A2BA-9BE7673A2FD8}" name="Custom Page - Find a Home Results">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"></field>
+		</record>
+		<record content="copy content" guid="{7EEB183D-0687-4EB6-9FD7-691B390C5EA7}" name="Custom Page - Featured Homes Price Categories">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1 class=ccHeadline>Featured Homes</H1>]]></field>
+		</record>
+		<record content="copy content" guid="{CE541458-AEE2-4F82-81C1-6B3226C312BA}" name="Custom Page - File Share Resource">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1 class=ccHeadline>File Share</H1>]]></field>
+		</record>
+		<record content="copy content" guid="{1DCBDC92-0885-4EF9-9EB0-16648E9D22BD}" name="Custom Page - Property details not found">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<P>We are sorry, but the property you were looking for is not available. Please go back to the search page and try others.</P>]]></field>
+		</record>
+		<record content="copy content" guid="{6B08F82E-C107-4C60-B8FC-01C8AA7F3A44}" name="Custom Page - Property Details">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"></field>
+		</record>
+		<record content="copy content" guid="{B647753E-0D85-40B4-8E54-6AA46903AFC2}" name="Custom Page - Registration Form">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"></field>
+		</record>
+		<record content="copy content" guid="{E97791A7-42B3-4856-86BA-FD5BC4CEF647}" name="Custom Page - Request Info Form">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<p class=ccHeadline>Information Request</p>Thank you for your interest. Please complete the form below, and I will contact you right away.]]></field>
+		</record>
+		<record content="copy content" guid="{BFC09481-000B-49BC-8704-5F4F6FA1BFB6}" name="Custom Page - Send Password Form">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<P>&nbsp;</P>]]></field>
+		</record>
+		<record content="copy content" guid="{B337DFA4-372C-44F8-88E9-B1394CE7379B}" name="Custom Page - Admin Login Form">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"></field>
+		</record>
+		<record content="copy content" guid="{1D964EC0-E85B-4E90-9E93-9708359FF208}" name="Custom Page - Login Form">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"></field>
+		</record>
+		<record content="copy content" guid="{2C5BAE49-52A6-458C-9840-B56AE4EB64FB}" name="Custom Page - Property Search IDX">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1>Find a Home</H1>]]></field>
+		</record>
+		<record content="copy content" guid="{F86DD12F-78D1-4FAC-95F5-03FA8F8CA68F}" name="Custom Page - Open Houses">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1>Open Houses</H1>
+<P>&nbsp;</P>]]></field>
+		</record>
+		<record content="copy content" guid="{0BD52C95-9BFD-4BEA-921A-DBE8D3AFF9D2}" name="Custom Page - Calculators">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1>Real Estate Calculator</H1>]]></field>
+		</record>
+		<record content="copy content" guid="{C0CADF53-4C75-4D68-BF70-A15CF83546A0}" name="Custom Page - Contact Agent">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[Thank you for your interest. Please complete the form below, and I will be in contact with you shortly.]]></field>
+		</record>
+		<record content="copy content" guid="{1FF2B76F-3BF1-42FC-A46A-8D36DA664B85}" name="Custom Page - Page Not Found">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1>Page Not Found</H1>
+<DIV>The page you were looking for could not be found. Please go back and try again, or use the navigation menu to locate the page you need.</DIV>]]></field>
+		</record>
+		<record content="copy content" guid="{A6632FC4-D255-45DB-BDC7-94A9CF06D66C}" name="Custom Page - Coming Soon Homes Not Found">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1>Coming Soon</H1>
+<P>There are no properties currently available in the coming soon section. You can easily stay up to date with new properties coming online with <A href="/Auto-Agent">Auto Agent</A> property searching. To use Auto Agent, start with a <A href="/Property-Search">property search</A>.</P>]]></field>
+		</record>
+		<record content="copy content" guid="{B8F63A04-5DA8-4327-B7E0-AE77E5271BE1}" name="Custom Page - Coming Soon Homes">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<H1 class=ccHeadline>Coming Soon</H1>
+<P>These homes have not been added to the MLS yet, so act quickly if you are interested. You can easily stay up to date with new properties coming online with <A href="http://default.gomethod.com/admin/Auto-Agent">Auto Agent</A> property searching. To use Auto Agent, start with a <A href="http://default.gomethod.com/admin/Property-Search">property search</A>.</P>]]></field>
+		</record>
+		<record content="copy content" guid="{55C72B5F-0A06-4E59-986B-BE238D647387}" name="Custom Page - Vertical Menu Content">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"></field>
+		</record>
+		<record content="copy content" guid="{AD0FBDE0-DC6F-4BDE-A6DA-17FF750E6CC1}" name="Custom Page - Footer">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"></field>
+		</record>
+		<record content="copy content" guid="{F5293C5F-4C0A-4746-9963-125261E1DFC9}" name="Custom Page - User Form Submission Response">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[Thank you for your response.]]></field>
+		</record>
+		<record content="copy content" guid="{F1904D56-D98B-4E4F-8E04-96F1CEB57289}" name="Custom Page - Sold Homes not found">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[There currently are no sold listings available.]]></field>
+		</record>
+		<record content="copy content" guid="{24269AAF-4E1A-4017-B6A0-8E4226BE560E}" name="Property Search Registration Copy">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"><![CDATA[<P>Please complete the following form. Your information will never be given to third parties.</P>]]></field>
+		</record>
+		<record content="copy content" guid="{5F01F597-999F-43C6-B60F-472685E47EE4}" name="Default">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Copy"></field>
+		</record>
+		<record content="page content" guid="{925F4A57-32F7-44D9-9027-A91EF966FB0D}" name="Home">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"><![CDATA[Experience and Commitment]]></field>
+			<field name="Copyfilename"><![CDATA[<p>Welcome <AC type="MEMBER" ACInstanceID="{D0E7309E-3999-4CAF-8CFE-B3F6462843D2}" field="NAME">,</p><p>There's a saying in the real estate industry , "If you don't have any friends who are agents, then you probably don't have any friends at all."</p><p>With so many different agents out there, how do you make the right decision? Should you choose a friend, neighbor or coworker? Should you work with an agent at a large firm, a small firm, a franchise or an independent?</p><p>While there's an exception to every rule, and every marketplace has its own distinctions, there are some basic rules to get the best qualified representation.</p><p><span style="FONT-WEIGHT: bold">Experience</span></p><p>The real estate profession is plagued by high turnover. This creates a workforce that is made up of many newcomers. While there are brand new agents with good intentions, why trust one of the largest investments you'll ever buy or sell to someone without experience?</p><p>Always look for an agent with at least two years of experience. Anyone still in the business after two years has probably learned at least the fundamentals of real estate.</p><p><span style="FONT-WEIGHT: bold">Commitment</span></p><p>Another problem in the industry is a large number of part time agents. These people have either retired from some other career, work in real estate seasonally or are earning a second income for the family and don't need to work full time. <br>No matter how long they have been in real estate, their lack of full-time commitment makes it impossible for them to keep up with the large number of changes in law, marketing and business practices that are occur in the profession today. <br>If an agent isn't working at least thirty hours a week, fifty weeks a year, look for someone else.</p><p>I bring both experience and commitment to every deal. So, whether you are buying or selling a home, hire someone like me, who wants to earn your business. I invite you to contact me as I'd be happy to assist you with this important transaction.</p><p>In today's competitive real estate market, timing is everything. Many good homes are sold before they are ever advertised. Beat other homebuyers to the hottest new homes for sale with my New Listings Notification.</p><p>If you own real estate that you're thinking of selling, I would be happy to provide you with a FREE Home Evaluation.</p><p>Please browse my website for listings, reports and important local real estate information.</p>]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID">{47BE95E4-5D21-42CC-9193-A343241E2513}</field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">4/5/2011 12:44:17 PM</field>
+			<field name="ReviewedBy">{CAC7A4C2-4E8D-4E43-A83A-C81827ADCB76}</field>
+			<field name="Viewings">275</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">True</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">False</field>
+			<field name="ChildListSortMethodID">{57063C48-7632-4AF6-BA54-A168A019ADA8}</field>
+			<field name="MenuHeadline"><![CDATA[Experience and Commitment]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID"></field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{185DC40F-38AB-47BC-BDE9-7AE57B16C924}" name="Buying">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"><![CDATA[Finding the Right House]]></field>
+			<field name="Copyfilename"><![CDATA[<P><AC type="IMAGE" RecordID="17" Width="270" Height="185" VSpace="10" HSpace="10" Alt="" Align="right" Border="0" Loop=""></P>
+<P>A real estate agent can help save you time and effort in your search for the right home. Real estate professionals have access to home buying tools and experience that the average homebuyer doesn't. The real estate agent's role is to guide you through the home buying or selling process. Real estate agents can help you:</P>
+<UL>
+<LI>Understand the paperwork and legal requirements 
+<LI>Find the neighborhood for your lifestyle 
+<LI>Find the home that meets your needs 
+<LI>Search property values in your area 
+<LI>Negotiate the final offer 
+<LI>Coordinate the closing process </LI></UL>
+<P>Determine the specifics you want or need in a home.</P>
+<UL>
+<LI>What are your day to day and future needs? 
+<LI>Do you enjoy swinging a hammer? 
+<LI>Older houses have great charm, but may need updating. 
+<LI>New homes offer the latest energy efficiency and design features- Larger lots can give room for additions and swimming pools. 
+<LI>A fixer upper can dramatically increase in worth. 
+<LI>A PUD may have private recreational facilities such as a pool and play parks. 
+<LI>A condo or town-house will relieve you of yard work and exterior maintenance.</LI></UL>
+<P>Sit down with your real estate agent and make up a wants and needs list. Knowing your price range, your agent can determine in what neighborhoods or towns to start looking. You may find that you are limited to where you look based on your situation.</P>
+<P>There is no sense in wasting your or your agent's time in areas out of your price range.</P>
+<P>
+<TABLE style="WIDTH: 95%" cellSpacing=0 cellPadding=0 rules=all width="95%" align=center border=0 frame=border>
+<TBODY>
+<TR>
+<TD style="VERTICAL-ALIGN: middle; TEXT-ALIGN: left">
+<LI>Wants and Needs 
+<LI>Price range 
+<LI>Building style/design 
+<LI>New construction 
+<LI>Remodeled 
+<LI>Fixer upper 
+<LI>Minimum # bedrooms 
+<LI>Bathrooms 
+<LI>Family room 
+<LI>Fireplace 
+<LI>Office/den </LI></TD>
+<TD style="VERTICAL-ALIGN: top; TEXT-ALIGN: left">
+<LI>Hardwood floors 
+<LI>Swimming pool / Spa 
+<LI>In-law quarters 
+<LI>Workshop 
+<LI>Central air conditioning 
+<LI>Parking facilities 
+<LI>Yard size 
+<LI>School district 
+<LI>Work locations 
+<LI>Special zoning or location</LI></TD></TR></TBODY></TABLE></P>
+<P><AC type="IMAGE" RecordID="3" Width="225" Height="226" VSpace="5" HSpace="10" Alt="" Align="left" Border="0" Loop="">With a list of houses that you can afford to buy, drive-by them and check out the surrounding neighborhood. Next make an appointment with your real estate agent to view the interior of the ones you are interested in. After you have narrowed your selection to few houses it is important to visit them at different times of the day. Visit them during the morning commute time. If you visit only during the middle of the day, you might not notice if the street in front of the home is used as a minor thoroughfare or a shortcut. This is also a good time to find out how you emerge from you residential area into traffic on a thoroughfare or how long it takes for freeway access. Go back after dark and walk around the block. You might notice that headlights from approaching traffic shine into the home or hear sounds from a nearby night club or park that you were not aware of.</P>
+<P>After previewing a number of homes, you will want to preview some a second time. This is the time to make measurements, ask questions and make a closer self-inspection. When you want to make an offer, ask your agent for sales comps to arrive at an offering price. A "seller's market" or "buyer's market" can have big effect on how much to offer. There is no sense in making a low offer on a well priced home in a seller's market. <BR>A properly written contract will allow a buyer a number of outs if certain items are not met or approved. Get a copy of a typical real estate contract prior to making an offer and have your agent go over it with you.<BR></P>]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">12:00:00 AM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">15</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">True</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Finding the Right House]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID"></field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{9816513D-41BF-4E00-BB5D-5A34BE039173}" name="Lending Information">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"><![CDATA[Lending Information]]></field>
+			<field name="Copyfilename"><![CDATA[<P><STRONG><AC type="IMAGE" RecordID="18" Width="288" Height="193" VSpace="10" HSpace="10" Alt="" Align="right" Border="0" Loop="">Loan prequalification vs. preapproval</STRONG></P>
+<P>One of the best ways to determine your budget is to have your real estate agent or lender prequalify you for a loan. Prequalification is different from preapproval, because it is only an estimate of what you'll be able to afford. On the other hand, preapproval is a more formal process where a lender examines your finances and agrees in advance to loan you money up to a specified amount.</P>
+<P><STRONG>What factors are important to lenders?</STRONG></P>
+<P>Banks and lending institutions will use several criteria to determine how much money they'll agree to lend. These include:</P>
+<UL>
+<LI>Your gross monthly income 
+<LI>Your credit history 
+<LI>The amount of your outstanding debts 
+<LI>Your savings--or the amount of money you have available for a down payment and closing costs 
+<LI>Your choice of mortgage (i.e. 30-year, FHA, etc.) 
+<LI>Current interest rates </LI></UL>
+<P><STRONG>Two important ratios</STRONG></P>
+<P>Lenders also use your financial information to figure out two, very important ratios: the debt-to-income ratio and the housing expense ratio.</P>
+<P>Debt-to-income ratio</P>
+<P>Many lenders use a rule of thumb that the amount of debt you are paying on each month (car payment, student loan, credit card, etc,) shouldn't exceed more than 36 percent of your gross monthly income. FHA loans are slightly more lenient.</P>
+<P>Housing expense ratio</P>
+<P>It is generally difficult to obtain a loan if the mortgage payment will be more than 28 to 33 percent of your gross monthly income.</P>
+<P>
+<TABLE style="WIDTH: 60%; BACKGROUND-COLOR: #ebebeb" cellSpacing=0 cellPadding=5 rules=all width="60%" align=center border=1 frame=border>
+<TBODY>
+<TR>
+<TD style="VERTICAL-ALIGN: middle; TEXT-ALIGN: left">&nbsp;<EM>Down payments make a difference</EM> 
+<P>If you can make a large down payment, lenders may be more lenient with their qualifying ratios. For example, a person with a 20 percent down payment may be qualified with the 33 percent housing expense ratio, while someone with a 5 percent down payment is held to the stricter 28 percent ratio.</P></TD></TR></TBODY></TABLE></P>
+<P><STRONG>Other ways to improve your purchasing power</STRONG></P>
+<P>Gifts</P>
+<P>If you're having trouble saving money, many lenders will allow you to use gift funds for the down payment and closing costs. However, most lenders require a "gift letter" stating the gift doesn't have to be repaid, and will also require you to pay at least a portion of the down payment with your own cash.</P>
+<P>Negotiating Closing Costs</P>
+<P>Through negotiation, some sellers may agree to pay all or most of your closing costs (for example, if you agree to meet their full asking price). If you choose to try this, make sure to ask your real estate agent for advice.</P>
+<P>Loan Programs</P>
+<P>Many local governments have special loan programs designed to help first-time homebuyers. Loans may be available at reduced interest rates, or with little or no down payments. Check with your local housing authority for more information.</P>]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">12:00:00 AM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">3</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">True</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Lending Information]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{185DC40F-38AB-47BC-BDE9-7AE57B16C924}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">False</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{DCEBA0B9-B7AB-4037-8BB0-5D41242F5BCE}" name="Mortgage Information">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"><![CDATA[Mortgage Information]]></field>
+			<field name="Copyfilename"><![CDATA[<P><STRONG></STRONG>&nbsp;</P>
+<P><STRONG>It's all about the interest interest</STRONG></P>
+<P><AC type="IMAGE" RecordID="19" Width="288" Height="430" VSpace="10" HSpace="10" Alt="" Align="right" Border="0" Loop="">To help calculate monthly payments for loans based on different interest rates, lenders long ago developed what are known as "amortization tables." These tables also make it fairly easy to calculate how much money of each payment is interest, and how much goes towards the principal balance.</P>
+<P>For example, let's calculate the principle and interest for the very first monthly payment of a 30-year, $100,000 mortgage loan at 7.5 percent interest. According to the amortization tables, the monthly payment on this loan is fixed at $699.21.</P>
+<P>The first step is to calculate the annual interest by multiplying $100,000 x .075 (7.5 %). This equals $7,500, which we then divide by 12 (for the number of months in a year), which equals $625.</P>
+<P>If you subtract $625 from the monthly payment of $699.21, we see that:<BR>$625 of the first payment is interest<BR>$74.21 of the first payment goes towards the principal<BR>Next, if we subtract $74.21 (the first principal payment) from the $100,000 of the loan, we come up with a new unpaid principal balance of $99,925.79. To determine the next month's principal and interest payments, we just repeat the steps already described.</P>
+<P>Thus, we now multiply the new principal balance (99,925.79) times the interest rate (7.5%) to get an annual interest payment of $7,494.43. Divided by 12, this equals $624.54. So during the second month's payment:<BR>$624.54 is interest <BR>$74.67 goes towards the principal. <BR>Note: In Canada, payments are compounded semi-annually instead of monthly.</P>
+<P><STRONG>Equity</STRONG></P>
+<P>As you can see from the above example, even though you pay a lot of interest up front, you're also slowly paying down the overall debt. This is known as building equity. Thus, even if you sell a house before the loan is paid in full, you only have to pay off the unpaid principal balance--the difference between the sales price and the unpaid principle is your equity.</P>
+<P>In order to build equity faster--as well as save money on interest payments--some homeowners choose loans with faster repayment schedules (such as a 15-year loan).</P>
+<P><STRONG>Time versus savings</STRONG></P>
+<P>To help illustrate how this works, consider our previous example of a $100,000 loan at 7.5 percent interest. The monthly payment is around $700, which over 30 years adds up to $252,000. In other words, over the life of the loan you would pay $152,000 just in interest.</P>
+<P>With the aggressive repayment schedule of a 15-year loan, however, the monthly payment jumps to $927-for a total of $166,860 over the life of the loan. Obviously, the monthly payments are more than they would be for a 30-year mortgage, but over the life of the loan you would save more than $85,000 in interest.</P>
+<P>Bear in mind that shorter term loans are not the right answer for everyone, so make sure to ask your lender or real estate agent about what loan makes the best sense for your individual situation.</P>
+<P><BR>Understanding how much you can afford is one of the most important rules of home buying. Depending on your individual situation, your budget can affect everything from the neighborhoods where you look, to the size of the house, and even what type of financing you choose.</P>
+<P>Bear in mind, however, that lenders will look at more than just your income to determine the size of the loan. Likewise, you may find that there are some creative financing options that can help boost your purchasing power.</P>
+<P>&nbsp;</P>]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">12:00:00 AM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">6</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">True</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Mortgage Information]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{185DC40F-38AB-47BC-BDE9-7AE57B16C924}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">False</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{93D8C54B-D19D-4753-BFB9-1ADCB177F9BE}" name="Credit Issues">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"><![CDATA[Credit Issues]]></field>
+			<field name="Copyfilename"><![CDATA[<P><STRONG><AC type="IMAGE" RecordID="20" Width="235" Height="288" VSpace="10" HSpace="10" Alt="" Align="right" Border="0" Loop="">Late payments</STRONG></P>
+<P>For most people, problems with their credit report are likely related to late payments on a debt. If you were late one month in paying off your credit card, but otherwise have a good payment history, chances are most lenders won't be too concerned. But if you have a history of late payments you'll need to document the reasons why. A slow payment history won't necessarily get you turned down for a loan, but you may have to pay a higher rate of interest or otherwise prove to the lender that you can repay your loan in a timely fashion.</P>
+<P><STRONG>Errors on your credit report</STRONG></P>
+<P>Many people are surprised to learn that credit reports can often contains errors or inaccurate information. If this is the case with your credit report, you'll need to contact the reporting agency or creditor to have the problem resolved. This can sometimes be a slow process, so make sure to give yourself time to clear up the mistake.</P>
+<P><STRONG>Bankruptcies and foreclosures</STRONG></P>
+<P>There's no getting around it, a bankruptcy on your credit report is not a good thing. But that doesn't mean you still can't obtain a loan. Even though a bankruptcy may stay on your credit report for seven to ten years, lenders will often consider the circumstances surrounding a bankruptcy (family illness, injury, etc.). Moreover, if you have reestablished good credit since the bankruptcy, a lender will be more inclined to approve your application.</P>
+<P>&nbsp;</P>]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">12:00:00 AM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">4</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">True</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Credit Issues]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{185DC40F-38AB-47BC-BDE9-7AE57B16C924}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">False</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{A96DBE76-2EA5-4E69-ACA1-D1182BA17DA4}" name="Selling">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"><![CDATA[Selling Your home]]></field>
+			<field name="Copyfilename"><![CDATA[<P><AC type="IMAGE" RecordID="22" Style="" Width="216" Height="145" VSpace="10" HSpace="10" Alt="" Align="right" Border="0" Loop=""></P>
+<P>The best source in locating an agent is your family or friends. Many would have experienced the selling of a property and could refer you to an agent that they found to be capable. Experience or the number of years the agent has been in the business should be a consideration. My experience enables me to assist you by:</P>
+<P dir=ltr>Providing you up-to-date information on what is happening in the marketplace and the price, financing, terms and condition of competing properties. These are key factors in getting your property sold at the best price, quickly and with minimum hassle. </P>
+<P dir=ltr>Marketing&nbsp;your property to other real estate agents and the public. Often, I can recommend repairs or cosmetic work that will significantly enhance the salability of your property.&nbsp; I market your property to other real estate agents and the public. In many markets across the country, over <AC type="IMAGE" RecordID="21" Style="" Width="144" Height="215" VSpace="10" HSpace="10" Alt="" Align="left" Border="0" Loop="">50% of real estate sales are cooperative sales; that is, a real estate agent other than yours brings in the buyer. I act as the marketing coordinator, disbursing information about your property to other real estate agents through a Multiple Listing Service or other cooperative marketing networks, open houses for agents, etc.</P>
+<BLOCKQUOTE dir=ltr style="MARGIN-RIGHT: 0px">
+<P>Knowing when, where and how to advertise your property. There is a misconception that advertising sells real estate. The NATIONAL ASSOCIATION OF REALTORS® studies show that 82% of real estate sales are the result of agent contacts through previous clients, referrals, friends, family and personal contacts. When a property is marketed with the help of your REALTOR®, you do not have to allow strangers into your home.&nbsp; I will generally prescreen and accompany qualified prospects through your property. </P>
+<P>Helping you objectively evaluate every buyer's proposal without compromising your marketing position. This initial agreement is only the beginning of a process of appraisals, inspections and financing -- a lot of possible pitfalls. I can help you write a legally binding, win-win agreement that will be more likely to make it through the process.</P></BLOCKQUOTE>
+<P dir=ltr>Helping close the sale of your home. Between the initial sales agreement and closing (or settlement), questions may arise. For example, unexpected repairs are required to obtain financing or a cloud in the title is discovered. The required paperwork alone is overwhelming for most sellers. I am the best person to objectively help you resolve these issues and move the transaction to closing (or settlement).</P>
+<P dir=ltr>Selling your home involves many steps, from consultation to pricing, marketing to escrow. I have many resources and a high level of expertise to bring to this process, which will be tailored to fit the characteristics of your property needs. They include the following:</P>
+<P dir=ltr>
+<TABLE style="WIDTH: 90%" cellSpacing=0 cellPadding=5 rules=all width="90%" align=center border=0 frame=border>
+<TBODY>
+<TR>
+<TD style="VERTICAL-ALIGN: top; WIDTH: 50%; TEXT-ALIGN: left" width="50%">
+<P><STRONG>Initial Consultation </STRONG></P>
+<UL>
+<LI>Understanding the objectives you want to achieve 
+<LI>Identifying the support you expect from your&nbsp;real estate agent 
+<LI>Analyzing your property for its special features and differentiators </LI></UL>
+<P><STRONG>Determining Market Value&nbsp;and asking price by analyzing: </STRONG></P>
+<UL>
+<LI>Recently sold homes 
+<LI>Homes available for sale 
+<LI>Homes that failed to sell&nbsp;&nbsp;</LI></UL>
+<P><STRONG>Designing and Implementing a Marketing Plan Establishing your marketing objectives </STRONG></P>
+<UL>
+<LI>To sell your home for the highest value in the shortest possible time 
+<LI>To utilize the full resources of&nbsp;your agent&nbsp;to gain maximum exposure for you home 
+<LI>To attract qualified buyers through a variety of channels 
+<LI>To assist in all stages of the transaction, from the purchase offer through closing.</LI></UL>
+<P><STRONG>Preparing Your Home for Sale&nbsp;</STRONG></P>
+<UL>
+<LI>Make reccomedations to help you&nbsp;make the best possible&nbsp;impression to prospective buyers&nbsp; 
+<LI>Such as removing clutter, keeping grass trimmed, rrmove dead or dyinh plants. fix peeling paint, smudges on walls, etc.&nbsp; 
+<LI>Coordination of professional inspections </LI></UL></TD>
+<TD>
+<P><STRONG>Implementing your marketing plan with deliverables that may include: </STRONG></P>
+<UL>
+<LI>Competitive market analysis 
+<LI>Featured listings on Internet site 
+<LI>Professional photos 
+<LI>Listing in MLS 
+<LI>Property brochures 
+<LI>Newspaper advertising 
+<LI>Sunday open houses 
+<LI>Internal&nbsp;agency promotion 
+<LI>Just-listed postcards 
+<LI>Preliminary title report 
+<LI>“For Sale” sign 
+<LI>Progress reports available online and offline 
+<LI>Contract negotiations 
+<LI>Escrow monitoring 
+<LI>Coordination of showings 
+<LI>Closing and recordation </LI></UL>
+<P><STRONG>Sales Process</STRONG></P>
+<UL>
+<LI>Reviewing Offer and Negotiating with Buyer's Agent 
+<LI>Reviewing all offers with you. 
+<LI>Negotiating the agreement 
+<LI>Completing the transaction 
+<LI>Monitoring the Escrow Process 
+<LI>Regularly updating you regarding escrow. 
+<LI>Informing you of any documents/inspections you need to provide. 
+<LI>Letting you know when final paperwork needs to be signed to complete the escrow process. 
+<LI>After-Sale Follow Up 
+<LI>Final meeting with you to make sure all settlement transactions have been fulfilled<BR></LI></UL></TD></TR></TBODY></TABLE></P>]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">12:00:00 AM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">12</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">True</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Selling Your home]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID"></field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{4DD3FA0B-BD78-4C3C-90B4-0996C8E8AFE1}" name="Increasing Your Homes Value">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"><![CDATA[Increasing Your Home's Value]]></field>
+			<field name="Copyfilename"><![CDATA[<P>When you're preparing your house for sale, remember the importance of first impressions. The market isn't the only factor that influences whether you get your asking price. Appearance and overall condition play a major role. Here are some easy things you can do to make your home more appealing to buyers.</P>
+<P><STRONG><AC type="IMAGE" RecordID="23" Width="209" Height="311" VSpace="10" HSpace="10" Alt="" Align="right" Border="0" Loop="">Outside</STRONG></P>
+<UL>
+<LI>It is estimated that more than half of all houses are sold before the buyers even get out of their cars. So stand across the street from your house and review its curb appeal. 
+<LI>Sweep front walkway. 
+<LI>Remove newspapers, bikes, and toys. 
+<LI>Park extra cars away from the property. 
+<LI>Trim the shrubs. 
+<LI>Apply fresh, clean paint throughout. 
+<LI>Clean windows and window coverings throughout. 
+<LI>Keep plumbing and all appliances in working order. 
+<LI>Maintain all sealants (window, tub, shower, sink, etc.) in good condition. 
+<LI>Make sure roof and gutters are in good condition; no repairs needed. 
+<LI>Mow the lawn more frequently and plant flowers. 
+<LI>Keep pet areas clean.<BR></LI></UL>
+<P><STRONG>Inside</STRONG></P>
+<UL>
+<LI>Kitchen and bathroom should shine. 
+<LI>Quick once-over with the vacuum; carpets should be clean. 
+<LI>Place fresh flowers in the main rooms. 
+<LI>Put dishes away, unless setting a formal display for decoration. 
+<LI>Make beds and put all clothes away. 
+<LI>Open drapes and turn on lights for a brighter feel. 
+<LI>Straighten closets. 
+<LI>Put toys away. 
+<LI>Turn off television. 
+<LI>Play soft music on the radio/stereo. 
+<LI>Keep pets out of the way and pet areas clean and odor-free. 
+<LI>Secure jewelry, cash, prescription medication, and other valuables. 
+<LI>Enhance the spaciousness of each room. Pack away collectibles to allow buyers to envision their own furnishings in the home. </LI></UL>
+<P><STRONG><AC type="IMAGE" RecordID="24" Width="213" Height="287" VSpace="10" HSpace="10" Alt="" Align="left" Border="0" Loop="">Important Reminders</STRONG></P>
+<P>Potential buyers usually feel more comfortable if the owners are not present.<BR>If people unaccompanied by an agent request to see your property, please refer them to your real estate professional for an appointment.<BR>Leave a number where you can be reached if you are leaving town, even for a weekend</P>
+<P><STRONG>Home Prices in Your Neighborhood</STRONG></P>
+<P>Knowing how much homes are selling for in your neighborhood is one of many factors to consider in determining the selling price range for your home. When you contact us, we will put you in touch with a qualified real estate professional who will visit you and prepare a market analysis of the homes recently sold in your neighborhood, share his or her in-depth knowledge of current market conditions, and help you determine the market value of your property.</P>
+<P>Keep in mind, your home is only worth what someone is willing to pay for it. Working with a&nbsp;Real Estate Professional, will help ensure that your property will receive maximum exposure to attract interested people who are willing to make an offer.</P>
+<P><STRONG><BR>Fair Market Value </STRONG></P>
+<P>The basic laws of supply and demand greatly impact what a buyer is willing to pay for property and the amount financial institutions or lenders are willing to finance.</P>
+<P>Fair market value is defined as the likely price a ready, willing, and able buyer is willing to pay for a property when:</P>
+<UL>
+<LI>The property is offered for sale on the open market. 
+<LI>The property is marketed for a reasonable period of time. 
+<LI>The buyer has a complete understanding and knowledge of the property. 
+<LI>Neither the buyer nor seller is under abnormal pressure<BR></LI></UL>]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">12:00:00 AM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">2</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">True</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Increasing Your Home's Value]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{A96DBE76-2EA5-4E69-ACA1-D1182BA17DA4}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">False</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{2F725FFD-17C8-431F-88FB-9BD091261C2D}" name="Determining Property Value">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"><![CDATA[Determining Property Value]]></field>
+			<field name="Copyfilename"><![CDATA[<P><STRONG><AC type="IMAGE" RecordID="25" Width="214" Height="246" VSpace="10" HSpace="10" Alt="" Align="right" Border="0" Loop="">The Market: </STRONG></P>
+<P>The market approach is based on the premise that a prudent person will pay no more for a property than it would cost to purchase a comparable substitute.<BR>Competitive Listing and Sale Prices: to form an opinion of value, a Real Estate Professional will analyze current listings and sale prices of similar homes in your area. He or she will consider properties that have recently sold, are currently for sale, or were offered for sale but did not sell. Although none of these properties is identical to yours, only those that have a high degree of similarity are noted in this report.<BR>Comparative Evaluation: a&nbsp;Real Estate Professional can prepare a detailed description of your property and an estimate of the selling price range in today's market. This is known as the comparative or competitive market value of property.</P>
+<P><STRONG>Staying Current with Market Value</STRONG></P>
+<P>Once your property has been listed,&nbsp;your Real Estate Professional will continually collect and review updated information to monitor the offering price. Our observations may include:</P>
+<UL>
+<LI>Professional opinions. 
+<LI>Industry (broker) response. 
+<LI>Buyer reaction. 
+<LI>Current market conditions. 
+<LI>Competing properties. 
+<LI>Availability of financing. 
+<LI>Number of showings. 
+<LI>Length of time on the market. 
+<LI>Interest rates. 
+<LI>Condition of the property. 
+<LI>Seller motivation.</LI></UL>
+<P><STRONG>Factors that Do Not Affect a Property's Value</STRONG></P>
+<P>What the owners paid when they built or bought the property. Some of the improvements and upgrades the owners have made to the property. The cash proceeds the owners want or need from the transaction. What friends, neighbors, or relatives say a property is worth.</P>
+<P><STRONG>Factors that Do Affect a Property's Value</STRONG></P>
+<UL>
+<LI>Style, condition, age, decor. 
+<LI>Location. 
+<LI>Time of year. 
+<LI>Property and neighborhood. 
+<LI>How quickly seller needs to sell. 
+<LI>Competitive Pricing: The Pricing of Choice 
+<LI>The probability of receiving an acceptable offer on your property and completing a sale diminishes significantly when your asking price is higher than the current market value.</LI></UL>
+<P><STRONG>Here are the factors that will determine price range:</STRONG></P>
+<P>Your property: its strongest selling points.</P>
+<P>The competition: the asking prices of other homes for sale in your area.</P>
+<P>Successful sales: the actual sales prices of home in your area.</P>
+<P>The expired listings: homes offered for sale that did not sell.<BR></P>]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">12:00:00 AM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">3</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">True</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Determining Property Value]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{A96DBE76-2EA5-4E69-ACA1-D1182BA17DA4}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">False</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{2DB43A39-473D-42FF-ACE2-20094FBD3537}" name="Page Not Found">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[100020]]></field>
+			<field name="Headline"><![CDATA[Page Not Found]]></field>
+			<field name="Copyfilename"><![CDATA[The page you were looking for could not be found. We apologize for the inconvenience. If you believe you came to this page due to a problem with the web site, <a href="/contact-us">please let use know</a>.]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 2:02:49 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">0</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Page Not Found]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{925F4A57-32F7-44D9-9027-A91EF966FB0D}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{41ACAEA7-0EBC-483B-82FA-EF106371FF50}" name="Contact Me">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[100020]]></field>
+			<field name="Headline"><![CDATA[Contact Me]]></field>
+			<field name="Copyfilename"><![CDATA[<p>As a professional real estate agent I am here to serve your real estate needs.&nbsp; To contact me, please fill out the form below and I will contact <AC type="IMAGE" ACInstanceID="{9C649F77-2808-4E1B-9BD6-FC37E1B0678F}" RecordID="14" Style="" Width="288" Height="193" VSpace="10" HSpace="10" Alt="" Align="right" Border="0" Loop="">you within 24-hours.&nbsp; If you need faster assistance please call me.</p><p><AC type="AGGREGATEFUNCTION" name="Contact Agent" ACInstanceID="{08284527-9762-489C-AA8E-AF746A04415D}" querystring="Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{3FA94530-45B3-487A-925C-818DD0058174}"><br></p>]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 5:01:06 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">0</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">True</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{9AC3086C-9A44-4CF2-BA88-25F038F27DE4}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">False</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{F027ADD4-6A29-4024-932C-99A5A480E9D7}" name="Featured Home Links">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 12:49:32 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">0</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">False</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Featured Home Links]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{93EB8E15-65D8-4944-BD0A-7FB15AF36A5E}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{F2F06A43-0B26-4FB3-AB42-1525A4E1D223}" name="Auto Agent">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"><![CDATA[Welcome to Auto Agent]]></field>
+			<field name="Copyfilename"><![CDATA[<p>Are you looking for a property in a certain area, price range, or size? Let Auto Agent search the properties and notify you daily or weekly of interesting possibilities. You set the criteria and Auto Agent does the work.</p><p><AC type="AGGREGATEFUNCTION" name="Auto Agent" ACInstanceID="{25092FA4-53E9-4BF9-B3D5-6FB121F98152}" querystring="Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{7F346398-9651-47F6-A949-AA44D7E76654}"><br></p>]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"><![CDATA[Auto-Agent]]></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 12:28:16 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">1</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">False</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Welcome to Auto Agent]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{185DC40F-38AB-47BC-BDE9-7AE57B16C924}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{1D0E01C9-1D26-4B7A-B6E0-6F72EFAB47A8}" name="Find a Home">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"><![CDATA[Property Search]]></field>
+			<field name="Copyfilename"><![CDATA[<h2>Deciding on your dream home sounds easy - but where do you start?</h2><p> </p>
+<p>What are your day to day and future needs? &nbsp; Do you enjoy swinging a 
+hammer? &nbsp; Older houses have great charm, but may need updating. New 
+homes offer the latest energy efficiency and design features. Larger 
+lots can give room for additions and swimming pools. A fixer upper can 
+dramatically increase in worth. A PUD may have private recreational 
+facilities such as a pool and play parks. A condo or town-house will 
+relieve you of yard work and exterior maintenance.</p>
+<p>Our Database covers over 22,000 square miles in 5 states, providing 
+the most comprehensive and up-to-date website for properties in the 
+Mid-Atlantic region. To begin, simply fill in the criterion that&nbsp;is 
+important to you. </p><div><AC type="AggregateFunction" name="Property Search" ACInstanceID="{34E7BA56-D9E3-4D38-BA66-4801C0BFC3AA}" querystring="Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{443DB353-2E2A-4E65-BD10-F5A55B973F7A}"></div>]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/31/2011 2:56:25 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">15</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">True</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Find a Home]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID"></field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{A85A1977-5545-4C30-B3E2-121260506344}" name="Registration">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[100080]]></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<AC type="AggregateFunction" name="Registration Page" ACInstanceID="{1E6DACA6-0CA4-4794-979D-E8BCC88AD89D}" querystring="Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{C4B54407-AA07-42EE-9CB3-48AA560343B6}">]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 1:52:38 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">0</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">False</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Registration]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{925F4A57-32F7-44D9-9027-A91EF966FB0D}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{9FA59F10-790B-4CA5-8553-58B86098100E}" name="Login Form">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[100030]]></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<AC type="AggregateFunction" name="Site Login" ACInstanceID="{7AB6587B-D5DC-4F8F-8CC5-5F73EB36CE10}" querystring="Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{3DF33CB5-9158-470F-9A6C-D8FB5767558E}">]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 2:00:36 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">1</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">False</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Login Form]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{925F4A57-32F7-44D9-9027-A91EF966FB0D}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{15C6E227-484F-4E96-A66B-361EECFE6D5A}" name="Admin Login Form">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[100130]]></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<AC type="AggregateFunction" name="Site Admin Login" ACInstanceID="{500C4EFD-288A-4A9A-8587-73B8271CA2B5}" querystring="Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{766198AB-1B07-4E72-BB69-9DC8436D4606}">]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 1:53:46 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">1</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">False</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Admin Login Form]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{925F4A57-32F7-44D9-9027-A91EF966FB0D}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{522111BD-2576-40EB-A7E7-CAED6CAD6BB1}" name="Send Password Form">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[100040]]></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<AC type="AggregateFunction" name="Send Password" ACInstanceID="{69162B8D-9B26-4624-BE3F-D2A758530F6E}" querystring="Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{15CA186D-4129-409C-A65C-58C439233D62}">]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 1:53:31 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">0</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">False</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Send Password Form]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{925F4A57-32F7-44D9-9027-A91EF966FB0D}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{657F3553-3B67-4F95-B310-21BD77B473E6}" name="Property Search IDX">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<AC type="AggregateFunction" name="IDX Property Search" ACInstanceID="{B40F6488-FB36-494A-9331-21861076DCBD}" querystring="Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{A809CC75-2CF1-4FC4-A87E-30B7691C899E}">]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 12:52:17 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">0</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">False</field>
+			<field name="AllowChildListDisplay">False</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Property Search IDX]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{1D0E01C9-1D26-4B7A-B6E0-6F72EFAB47A8}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{8733C82D-BEAB-4AA0-8A75-4B63E0439DFA}" name="Property Details">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID">{AF83DA9C-41CA-45E3-B6E3-659CEA120F8B}</field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 2:03:39 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">0</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">False</field>
+			<field name="AllowChildListDisplay">False</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Property Details]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{1D0E01C9-1D26-4B7A-B6E0-6F72EFAB47A8}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{C09D0AC3-D74F-4058-BCB5-2FE6476EC8B7}" name="Property Slideshow">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<p><AC type="AGGREGATEFUNCTION" name="Featured Home Spread" ACInstanceID="{D7B55F57-3E96-4452-98FA-493F09D487DA}" querystring="" guid="{6A38C3BA-F1C8-41AB-AE20-2EC4C79B1C03}"><br></p>]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 5:04:30 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">0</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">False</field>
+			<field name="AllowChildListDisplay">False</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"><![CDATA[Property Slideshow]]></field>
+			<field name="AllowBrief">False</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{1D0E01C9-1D26-4B7A-B6E0-6F72EFAB47A8}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{F5746F4E-1541-43E6-A684-A8FCBF56ADBF}" name="Privacy Policy">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[100010]]></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<h1 class="ccHeadline">Privacy Policy</h1>
+<p><span style="FONT-WEIGHT: bold">Committed to protecting your privacy online. </span></p>
+<p>The following privacy statement discloses our policies on gathering information and use practices for this site. This policy is subject to change and revision so please feel free to review this policy at anytime. </p>
+<p><span style="FONT-WEIGHT: bold">Privacy</span> </p>
+<p>This site is designed to provide you with a unique personalized experience. To help us deliver the most appropriate content, our database collects information online. Our database gathers and analyzes your online behavior and self selected preferences. Once this information is catalogued, we can deliver relevant news and content to you every time you visit. </p>
+<p>This site may contain links to other Web sites. KMAnet is not responsible for the privacy practices or the content of such web sites. </p>
+<p><span style="FONT-WEIGHT: bold">Information We Collect and How We Use It </span></p>
+<p>When you register as a visitor, we request your name, address, and e-mail address. We use this information to personalize content and to provide you with accurate information when you call, should you choose to do so. We may also contact you when necessary; to follow up on the status of your registration or to provide you with any additional information you may need. </p>
+<p>We never share your individual information with any third party. </p>
+<p><span style="FONT-WEIGHT: bold">Security</span> </p>
+<p>To prevent unauthorized access, maintain data accuracy, and ensure the correct use of information, we have put in place appropriate physical, electronic, and managerial procedures to safeguard and secure the information we collect online. <br></p>]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 2:03:57 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">1</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"></field>
+			<field name="AllowBrief">True</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{925F4A57-32F7-44D9-9027-A91EF966FB0D}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{FDF1491F-122E-4C5E-9C4B-36300DE9AD8F}" name="Terms of Use">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[100060]]></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<h1>Terms of Use</h1>
+<p>You may view, download, and print contents from the Site subject to the following conditions: (a) the content may be used solely for personal non-commercial information purposes; and (b) the content may not be modified or altered in any way. You may not republish, distribute, or otherwise use the content other than as permitted herein.</p>
+<p>You may not frame or utilize framing techniques to enclose any trademark, logo, or other proprietary information (including images, text, page layout, or form) of the site without the express written consent. </p>
+<p>You do not have or acquire any ownership rights to any content in the Site. <br></p>]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 2:03:09 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">1</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"></field>
+			<field name="AllowBrief">True</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{925F4A57-32F7-44D9-9027-A91EF966FB0D}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{1C6B43E6-9721-4663-AC19-6EEAD3BD9DB4}" name="Legal Notice">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[100110]]></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<h1 class="ccHeadline">Legal Notice </h1>All Rights Reserved. Nothing displayed on this web site may be duplicated or distributed. <p>Some listings on this site are provided by MRIS. These listings come from many brokers. Not all listings from MRIS may be visible on this site.</p>]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 2:02:01 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">1</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"></field>
+			<field name="AllowBrief">True</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{925F4A57-32F7-44D9-9027-A91EF966FB0D}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{96DEA843-8DF4-4BE3-8091-981D9135E4A5}" name="Equal Housing Notice">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[100090]]></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<h1 class="ccHeadline">Equal Housing Notice </h1>
+<p><span style="FONT-SIZE: 8pt">All real estate advertised herein is subject to the federal Fair Housing Act, which makes it illegal to advertise "any preference, limitation, or discrimination because of race, color, religion, sex, handicap, familial status, or national origin, or intention to make such preference, limitation or discrimination."</span></p>
+<p><span style="FONT-SIZE: 8pt">We will not knowingly accept or permit any advertisement for real estate that is in violation of the law. All persons are hereby informed that all dwellings&nbsp;herein are available on an equal opportunity basis.</span></p>]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 2:00:56 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">1</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">False</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"></field>
+			<field name="AllowBrief">True</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{925F4A57-32F7-44D9-9027-A91EF966FB0D}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{F5CC34DE-9E53-46D8-BE53-592E56A890EB}" name="Related Links">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[100100]]></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<AC type="AggregateFunction" name="Related Links" ACInstanceID="{EF34F363-E62B-40EE-887B-D33E328D5209}" querystring="Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{A473CB66-34A4-4DC8-B6BB-DE87BBE796ED}">]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 2:00:04 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">1</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"></field>
+			<field name="AllowBrief">True</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{925F4A57-32F7-44D9-9027-A91EF966FB0D}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{93EB8E15-65D8-4944-BD0A-7FB15AF36A5E}" name="Featured Homes">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<AC type="AggregateFunction" name="Featured Homes" ACInstanceID="{E89EB5AC-0995-49F2-9F43-25D3025103F3}" querystring="Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{86C93428-A6A1-40BF-A02F-BC86AC8579AA}">]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 12:50:55 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">8</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">False</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"></field>
+			<field name="AllowBrief">True</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID"></field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{14ABB39E-DEEF-4BE4-B4E6-661A6A224C50}" name="Home Assessment">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<AC type="AggregateFunction" name="Home Assessment" ACInstanceID="{E6BA2BF4-419C-4CC4-A9A8-12377A48ED97}" querystring="Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{EBF96C88-2C98-45FB-A64F-E2267C2E824B}">]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 12:40:16 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">0</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">False</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"></field>
+			<field name="AllowBrief">True</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{A96DBE76-2EA5-4E69-ACA1-D1182BA17DA4}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{B44A3CF9-4192-4698-A79D-7CFE3F6FE6DB}" name="Calculators">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[100120]]></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<AC type="AggregateFunction" name="Calculators" ACInstanceID="{70419725-6C41-48C2-A35A-0C47DB03FBC0}" querystring="Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{308FCC60-14A2-4489-BCEB-4A7C8C4491B1}">]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 2:00:19 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">0</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"></field>
+			<field name="AllowBrief">True</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{925F4A57-32F7-44D9-9027-A91EF966FB0D}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{F4456D9B-8781-4AFD-8D24-3E8246C56CEC}" name="Register">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[100070]]></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<AC type="AggregateFunction" name="Registration Page" ACInstanceID="{AFDFB809-79AA-4420-B3C8-CA5FAAF2507F}" querystring="Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{C4B54407-AA07-42EE-9CB3-48AA560343B6}">]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 1:53:15 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">1</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"></field>
+			<field name="AllowBrief">True</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{925F4A57-32F7-44D9-9027-A91EF966FB0D}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{6FB5F687-188D-420E-81AB-8BFC99958FC5}" name="Request Information">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[100010]]></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<AC type="AggregateFunction" name="Information Request Form" ACInstanceID="{3666BDAC-79A8-4CB5-AF17-9A05F78A927D}" querystring="Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{0AA800C0-72B3-4209-90DE-ECF8E5F1B740}">]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 5:01:25 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">0</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">True</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"></field>
+			<field name="AllowBrief">True</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{9AC3086C-9A44-4CF2-BA88-25F038F27DE4}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">False</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{2D82135B-B360-4CB0-B516-694761488EFA}" name="Open Houses">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<AC type="AggregateFunction" name="Open Houses" ACInstanceID="{643395D5-F95A-4C5A-AE1E-D13401C464A2}" querystring="Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{B2078E4A-259B-49C2-8A27-FDD80C0B6546}">]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 12:50:14 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">0</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">False</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"></field>
+			<field name="AllowBrief">True</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{185DC40F-38AB-47BC-BDE9-7AE57B16C924}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{4011996F-F010-4CFE-9B5D-8E5601132BFE}" name="Sold Homes">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<AC type="AggregateFunction" name="Sold Homes" ACInstanceID="{45173434-42EB-4F4D-BA91-A9D394706BBB}" querystring="Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{EAE1A78A-EB96-484A-B2E3-E8B8849E1021}">]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 12:49:53 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">0</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">False</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"></field>
+			<field name="AllowBrief">True</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{9AC3086C-9A44-4CF2-BA88-25F038F27DE4}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{F23257FA-5FED-4F64-8C13-62ED07822E59}" name="Property List">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<AC type="AggregateFunction" name="Property List" ACInstanceID="{509F06A2-605C-4287-9AC1-C43BB3C235CC}" querystring="ListCity=&ListState=&ListZip=&ListCounty=&ListMinPrice=&ListMaxPrice=&ListBedrooms=&ListBathRooms=&ListRentals=&ListHomeType=&Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{A22F8484-CF51-46F2-A3DF-39988A5230F7}">]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 12:45:13 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">0</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">False</field>
+			<field name="AllowInChildLists">False</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"></field>
+			<field name="AllowBrief">True</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{1D0E01C9-1D26-4B7A-B6E0-6F72EFAB47A8}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID"></field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{9AC3086C-9A44-4CF2-BA88-25F038F27DE4}" name="About Me">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Headline"><![CDATA[About Me]]></field>
+			<field name="Copyfilename"><![CDATA[<p>If you're considering buying or selling a home in northern Virginia, then I'd love to be your Realtor. <br></p><ul><li>
+I answer my own phone! I will 
+personally assure you the best level of communication that you will ever
+ experience in a real estate relationship.
+</li><li>
+I
+ have sold residential homes in the Northern VA metro area for the past 
+20 years and qualify as a NVAR Lifetime Top Producer (top 1% of realtors
+ in the NOVA metro).
+</li><li>
+I have over 20 years of sales 
+experience creating win-win situations for my customers. Let me be your 
+real estate agent in northern Virginia
+</li><li>
+As a Northern Virginia resident for&nbsp;23 years,&nbsp;I know the area as a local expert.<br></li></ul><p>
+</p><p>
+</p><p>
+Real estate is 
+about more than buying and selling properties.&nbsp; It is about people and 
+families making big transitions in their lives.&nbsp; Laura believes that her
+ job, as a Real Estate Professional, is to take the stress and worry out
+ of these transactions by protecting&nbsp;her&nbsp;clients’ interests, guiding 
+them through the process efficiently, and taking care of all the 
+details.<span style="font-size: 10pt; font-family: Verdana;"></span></p>
+]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 12:38:25 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">3</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">True</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"></field>
+			<field name="AllowBrief">True</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID"></field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID">1</field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="page content" guid="{8578F240-548B-45F5-9FF0-23D9985F1069}" name="SiteMap">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[100050]]></field>
+			<field name="Headline"></field>
+			<field name="Copyfilename"><![CDATA[<p><AC type="AGGREGATEFUNCTION" name="Site Map" ACInstanceID="{8398F602-4415-4353-AB7A-75FD3759F607}" querystring="Site Map Name=&New Site Map=&Wrapper=&As Ajax=&css Container id=&css Container class=" guid="{1E9E6BC1-633B-43E9-BC0F-39C3CBA700CE}"><br></p>]]></field>
+			<field name="AlternateContentID"></field>
+			<field name="AlternateContentLink"></field>
+			<field name="OrganizationID"></field>
+			<field name="LinkAlias"></field>
+			<field name="DocLabel"></field>
+			<field name="LinkLabel"></field>
+			<field name="AllowMetaContentNoFollow">False</field>
+			<field name="BlockContent">False</field>
+			<field name="BlockPage">False</field>
+			<field name="BlockSourceID"></field>
+			<field name="CustomBlockMessage"></field>
+			<field name="RegistrationGroupID"></field>
+			<field name="Marquee"></field>
+			<field name="RegistrationRequired">False</field>
+			<field name="ContentPadding">20</field>
+			<field name="ContactMemberID"></field>
+			<field name="IsSecure">False</field>
+			<field name="TemplateID"></field>
+			<field name="AllowHitNotification">False</field>
+			<field name="AllowReturnLinkDisplay">True</field>
+			<field name="AllowSeeAlso">False</field>
+			<field name="AllowFeedback">False</field>
+			<field name="AllowMoreInfo">False</field>
+			<field name="AllowPrinterVersion">False</field>
+			<field name="AllowEmailPage">False</field>
+			<field name="AllowLastModifiedFooter">False</field>
+			<field name="AllowMessageFooter">False</field>
+			<field name="AllowReviewedFooter">False</field>
+			<field name="DateReviewed">3/28/2011 4:59:49 PM</field>
+			<field name="ReviewedBy"></field>
+			<field name="Viewings">2</field>
+			<field name="PubDate">12:00:00 AM</field>
+			<field name="DateExpires">12:00:00 AM</field>
+			<field name="DateArchive">12:00:00 AM</field>
+			<field name="ArchiveParentID"></field>
+			<field name="JSOnLoad"></field>
+			<field name="JSHead"></field>
+			<field name="JSFilename"></field>
+			<field name="JSEndBody"></field>
+			<field name="AllowInMenus">True</field>
+			<field name="AllowInChildLists">True</field>
+			<field name="AllowChildListDisplay">True</field>
+			<field name="ChildListSortMethodID"></field>
+			<field name="MenuHeadline"></field>
+			<field name="AllowBrief">True</field>
+			<field name="BriefFilename"></field>
+			<field name="Link"></field>
+			<field name="Clicks">0</field>
+			<field name="ParentID">{925F4A57-32F7-44D9-9027-A91EF966FB0D}</field>
+			<field name="ParentListName"></field>
+			<field name="ChildPagesFound">True</field>
+			<field name="ChildListInstanceOptions"></field>
+			<field name="PageLink"></field>
+			<field name="RSSTitle"></field>
+			<field name="RSSDescription"></field>
+			<field name="RSSDatePublish">12:00:00 AM</field>
+			<field name="RSSDateExpire">12:00:00 AM</field>
+			<field name="RSSLink"></field>
+			<field name="TriggerConditionID">1</field>
+			<field name="TriggerConditionGroupID"></field>
+			<field name="TriggerSendSystemEmailID"></field>
+			<field name="TriggerAddGroupID"></field>
+			<field name="TriggerRemoveGroupID"></field>
+			<field name="PodcastMediaLink"></field>
+			<field name="PodcastSize"></field>
+		</record>
+		<record content="site sections" guid="{D882ED77-DB8F-4183-B12C-F83BD616E2E1}" name="Home">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[000]]></field>
+			<field name="Caption"><![CDATA[Home]]></field>
+			<field name="TemplateID">{47BE95E4-5D21-42CC-9193-A343241E2513}</field>
+			<field name="RootPageID">{925F4A57-32F7-44D9-9027-A91EF966FB0D}</field>
+			<field name="ContentID">{02203F58-0921-4F75-A089-0EAD6E8FEB4F}</field>
+			<field name="HideMenu">False</field>
+			<field name="BlockSection">False</field>
+			<field name="JSOnLoad"></field>
+			<field name="JSFilename"></field>
+			<field name="JSHead"></field>
+			<field name="JSEndBody"></field>
+		</record>
+		<record content="site sections" guid="{C1C8732B-C7AB-418F-BCA8-235A85B8CFBB}" name="Find a Home">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[100]]></field>
+			<field name="Caption"><![CDATA[Find a Home]]></field>
+			<field name="TemplateID"></field>
+			<field name="RootPageID">{1D0E01C9-1D26-4B7A-B6E0-6F72EFAB47A8}</field>
+			<field name="ContentID">{02203F58-0921-4F75-A089-0EAD6E8FEB4F}</field>
+			<field name="HideMenu">False</field>
+			<field name="BlockSection">False</field>
+			<field name="JSOnLoad"></field>
+			<field name="JSFilename"></field>
+			<field name="JSHead"></field>
+			<field name="JSEndBody"></field>
+		</record>
+		<record content="site sections" guid="{06353E53-C8CF-4DEE-8D1F-67E5B755E6A3}" name="Featured Homes">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[110]]></field>
+			<field name="Caption"><![CDATA[Featured Homes]]></field>
+			<field name="TemplateID"></field>
+			<field name="RootPageID">{93EB8E15-65D8-4944-BD0A-7FB15AF36A5E}</field>
+			<field name="ContentID">{02203F58-0921-4F75-A089-0EAD6E8FEB4F}</field>
+			<field name="HideMenu">False</field>
+			<field name="BlockSection">False</field>
+			<field name="JSOnLoad"></field>
+			<field name="JSFilename"></field>
+			<field name="JSHead"></field>
+			<field name="JSEndBody"></field>
+		</record>
+		<record content="site sections" guid="{B5D43FB2-F322-48F2-B277-88BA3C04FDB7}" name="Buying">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[120]]></field>
+			<field name="Caption"><![CDATA[Buying]]></field>
+			<field name="TemplateID"></field>
+			<field name="RootPageID">{185DC40F-38AB-47BC-BDE9-7AE57B16C924}</field>
+			<field name="ContentID">{02203F58-0921-4F75-A089-0EAD6E8FEB4F}</field>
+			<field name="HideMenu">False</field>
+			<field name="BlockSection">False</field>
+			<field name="JSOnLoad"></field>
+			<field name="JSFilename"></field>
+			<field name="JSHead"></field>
+			<field name="JSEndBody"></field>
+		</record>
+		<record content="site sections" guid="{8EF0ED75-2DEC-4B36-9863-FD769C6A8F77}" name="Selling">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[130]]></field>
+			<field name="Caption"><![CDATA[Selling]]></field>
+			<field name="TemplateID"></field>
+			<field name="RootPageID">{A96DBE76-2EA5-4E69-ACA1-D1182BA17DA4}</field>
+			<field name="ContentID">{02203F58-0921-4F75-A089-0EAD6E8FEB4F}</field>
+			<field name="HideMenu">False</field>
+			<field name="BlockSection">False</field>
+			<field name="JSOnLoad"></field>
+			<field name="JSFilename"></field>
+			<field name="JSHead"></field>
+			<field name="JSEndBody"></field>
+		</record>
+		<record content="site sections" guid="{D322BE09-8A03-4C09-95F2-4E0F71B2B09E}" name="About Me">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"><![CDATA[140]]></field>
+			<field name="Caption"><![CDATA[About Me]]></field>
+			<field name="TemplateID"></field>
+			<field name="RootPageID">{9AC3086C-9A44-4CF2-BA88-25F038F27DE4}</field>
+			<field name="ContentID">{02203F58-0921-4F75-A089-0EAD6E8FEB4F}</field>
+			<field name="HideMenu">False</field>
+			<field name="BlockSection">False</field>
+			<field name="JSOnLoad"></field>
+			<field name="JSFilename"></field>
+			<field name="JSHead"></field>
+			<field name="JSEndBody"></field>
+		</record>
+		<record content="dynamic Menus" guid="{E8D575B9-54AE-4BF9-93B7-C7E7FE6F2DB3}" name="Default">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Depth">2</field>
+			<field name="Layout">1</field>
+			<field name="Delimiter"><![CDATA[|]]></field>
+			<field name="FlyoutOnHover">True</field>
+			<field name="FlyoutDirection">2</field>
+			<field name="StylePrefix"><![CDATA[default]]></field>
+			<field name="StylesFilename"><![CDATA[.defaultButton {MARGIN:0px;PADDING-RIGHT:0px;PADDING-LEFT:0px;PADDING-BOTTOM:4px;PADDING-TOP:4px;white-space:nowrap;}
+A.defaultButton {
+	padding: 4px 10px 4px 10px;
+	MARGIN:0px;
+	FONT-WEIGHT:normal;
+	FONT-SIZE:11px;
+	Z-INDEX:100;
+	COLOR:#f0f0f0;
+	FONT-STYLE:normal;
+	FONT-FAMILY:verdana,arial,sans-serif;
+	TEXT-DECORATION:none;
+	white-space:nowrap;
+	line-height: 24px;
+}
+A.defaultButton:hover {TEXT-DECORATION:none;color:white;Background-color:#669ACC;}
+A.defaultButton:visited {TEXT-DECORATION:none;}
+A.defaultButtonDown {TEXT-DECORATION:none;color:white;Background-color:#669ACC;}
+A.defaultButtonDown:hover {TEXT-DECORATION:none;}
+A.defaultButtonDown:visited {TEXT-DECORATION:none;}
+.defaultDelimiter {
+	color:#f0f0f0;
+	padding:0px;
+	margin:0px;
+}
+.defaultPanel {BORDER:white 1px solid;Z-INDEX:101;VISIBILITY:hidden;POSITION:absolute;BACKGROUND-COLOR:#e0e0e0;TEXT-DECORATION:none;}
+A.defaultPanelButton {DISPLAY:block;BORDER-BOTTOM:#f0f0f0 1px solid;PADDING:4px;PADDING-LEFT:10px;PADDING-RIGHT:10px;FONT-WEIGHT:normal;FONT-SIZE:11px;FONT-STYLE:normal;FONT-FAMILY:verdana,arial,sans-serif;WHITE-SPACE:nowrap;TEXT-DECORATION:none;COLOR:black;}
+A.defaultPanelButton:hover {TEXT-DECORATION:none;COLOR:white;BACKGROUND-COLOR:#669ACC;}
+A.defaultPanelButton:visited {TEXT-DECORATION:none;}
+A.defaultPanelButtonDown {TEXT-DECORATION:none;COLOR:white;BACKGROUND-COLOR:#669ACC;}
+]]></field>
+		</record>
+		<record content="dynamic Menus" guid="{9DE77107-0BC6-447C-BDD3-9F0BF0004CFA}" name="Home">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="Depth">2</field>
+			<field name="Layout">1</field>
+			<field name="Delimiter"><![CDATA[|]]></field>
+			<field name="FlyoutOnHover">True</field>
+			<field name="FlyoutDirection">2</field>
+			<field name="StylePrefix"><![CDATA[home]]></field>
+			<field name="StylesFilename"><![CDATA[/* Menu Styles for Style Prefix [home] created 3/28/2011 */
+
+.homeButton {MARGIN:0px;PADDING-RIGHT:0px;PADDING-LEFT:0px;PADDING-BOTTOM:4px;PADDING-TOP:4px;white-space:nowrap;}
+A.homeButton {
+	padding: 4px 10px 4px 10px;
+	MARGIN:0px;
+	FONT-WEIGHT:normal;
+	FONT-SIZE:11px;
+	Z-INDEX:100;
+	COLOR:#f0f0f0;
+	FONT-STYLE:normal;
+	FONT-FAMILY:verdana,arial,sans-serif;
+	TEXT-DECORATION:none;
+	white-space:nowrap;
+	line-height: 24px;
+}
+A.homeButton:hover {TEXT-DECORATION:none;color:white;Background-color:#669ACC;}
+A.homeButton:visited {TEXT-DECORATION:none;}
+A.homeButtonDown {TEXT-DECORATION:none;color:white;Background-color:#669ACC;}
+A.homeButtonDown:hover {TEXT-DECORATION:none;}
+A.homeButtonDown:visited {TEXT-DECORATION:none;}
+.homeDelimiter {
+	color:#f0f0f0;
+	padding:0px;
+	margin:0px;
+}
+.homePanel {BORDER:white 1px solid;Z-INDEX:101;VISIBILITY:hidden;POSITION:absolute;BACKGROUND-COLOR:#e0e0e0;TEXT-DECORATION:none;}
+A.homePanelButton {DISPLAY:block;BORDER-BOTTOM:#f0f0f0 1px solid;PADDING:4px;PADDING-LEFT:10px;PADDING-RIGHT:10px;FONT-WEIGHT:normal;FONT-SIZE:11px;FONT-STYLE:normal;FONT-FAMILY:verdana,arial,sans-serif;WHITE-SPACE:nowrap;TEXT-DECORATION:none;COLOR:black;}
+A.homePanelButton:hover {TEXT-DECORATION:none;COLOR:white;BACKGROUND-COLOR:#669ACC;}
+A.homePanelButton:visited {TEXT-DECORATION:none;}
+A.homePanelButtonDown {TEXT-DECORATION:none;COLOR:white;BACKGROUND-COLOR:#669ACC;}
+]]></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{10CA03F4-051E-49D3-B868-2058BA0A6E24}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID">{E8D575B9-54AE-4BF9-93B7-C7E7FE6F2DB3}</field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{AB3B5377-FCE3-4B5D-8D76-E8462D0A10E8}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID"></field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{251B9971-F94A-4CC5-8B39-854BDF6169AF}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID">{9DE77107-0BC6-447C-BDD3-9F0BF0004CFA}</field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{0FB5D39F-D7DE-403E-BAFF-197F771FB60F}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID">{9DE77107-0BC6-447C-BDD3-9F0BF0004CFA}</field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{278C0D8D-8BF7-44AA-84C0-AEC7F8CB4B66}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID">{9DE77107-0BC6-447C-BDD3-9F0BF0004CFA}</field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{F07B4BFB-4309-45F4-8E18-9127B8026DD8}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID">{9DE77107-0BC6-447C-BDD3-9F0BF0004CFA}</field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{F2D480BC-121F-4AB3-BBFC-F504D24E2CE5}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID">{9DE77107-0BC6-447C-BDD3-9F0BF0004CFA}</field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{B6E678B0-F71D-4734-AEC3-F45AD71F9AB1}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID"></field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{5D714426-AF66-49E8-B6C5-1530E0DB4A17}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID"></field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{F4DEB5A0-F250-4D4E-8778-6FF139D2B34A}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID"></field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{791AF364-01E2-44E0-BDAF-18E4012026F6}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID"></field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{BA8E272E-D420-49AD-904D-645B153CDEF8}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID"></field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{4D11DDA5-E389-4E97-9977-DBA5DC04670F}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID"></field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{FA50CAAF-3E9B-4106-A1F1-6A9129199B8A}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID">{9DE77107-0BC6-447C-BDD3-9F0BF0004CFA}</field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{53C45EAA-D402-4A62-8E34-087918FCDEF6}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID">{9DE77107-0BC6-447C-BDD3-9F0BF0004CFA}</field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{68F371F4-ED5B-46CE-B9D8-8E768590EAB1}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID">{9DE77107-0BC6-447C-BDD3-9F0BF0004CFA}</field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{10A5368E-7949-4734-863C-FE0CDB353E7E}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID">{9DE77107-0BC6-447C-BDD3-9F0BF0004CFA}</field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{ADD6CF92-B3A2-4012-86D2-45E906DF1346}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID">{9DE77107-0BC6-447C-BDD3-9F0BF0004CFA}</field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{958D8B9A-F622-4F4A-A3A6-EDDBA1E33F8B}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID">{E8D575B9-54AE-4BF9-93B7-C7E7FE6F2DB3}</field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{C3205317-55CD-4D97-A6ED-E3335D90B0F6}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID">{E8D575B9-54AE-4BF9-93B7-C7E7FE6F2DB3}</field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{2364E51E-421C-482C-81EE-299FA4C9995F}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID">{E8D575B9-54AE-4BF9-93B7-C7E7FE6F2DB3}</field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{E5786E5F-B653-4AAA-86DA-38C663BA76A6}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID">{E8D575B9-54AE-4BF9-93B7-C7E7FE6F2DB3}</field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="dynamic menu section rules" guid="{6D54E15B-C2E3-4E3C-9967-762A4FFFAB00}" name="">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="DynamicMenuID">{E8D575B9-54AE-4BF9-93B7-C7E7FE6F2DB3}</field>
+			<field name="SectionID"></field>
+		</record>
+		<record content="shared styles" guid="{265FBE23-4176-4F82-97D7-5731134C4899}" name="Site Option Styles">
+			<field name="ACTIVE">True</field>
+			<field name="SORTORDER"></field>
+			<field name="StyleFilename"><![CDATA[body,p,div,li,ul,ol,td{font-family:Verdana;font-size:9pt;}
+h1,h2,h3,h4,h5,h6 {font-family:Verdana;}
+h1{font-size:13pt;}
+h2{font-size:11pt;}
+h3{font-size:9pt;}
+h4{font-size:9pt;}
+h5{font-size:9pt;}
+h6{font-size:9pt;}
+h1.ccHeadline {font-size:13pt;}
+]]></field>
+			<field name="AlwaysInclude">True</field>
+			<field name="Prefix"></field>
+			<field name="Suffix"></field>
+		</record>
+	</data>
+	<ImportCollection name="Real Estate Features">{DE66C817-8052-43B9-BD82-EC5625BD0DD0}</ImportCollection>
+	<ImportCollection name="Real Estate Template Default">{9434ACA0-7F9B-4AE8-B905-958B99F9B7B3}</ImportCollection>
+	<Resource name="3ohguy.gif" type="www" path="images" />
+	<Resource name="3ohrelease.gif" type="www" path="images" />
+	<Resource name="4percent_off.gif" type="www" path="images" />
+	<Resource name="arrowup.gif" type="www" path="images" />
+	<Resource name="bannermid.gif" type="www" path="images" />
+	<Resource name="banner_01.gif" type="www" path="images" />
+	<Resource name="banner_02.gif" type="www" path="images" />
+	<Resource name="blank.gif" type="www" path="images" />
+	<Resource name="cable.gif" type="www" path="images" />
+	<Resource name="calendar.gif" type="www" path="images" />
+	<Resource name="cash_off.gif" type="www" path="images" />
+	<Resource name="click.gif" type="www" path="images" />
+	<Resource name="copy of 4percent_off.gif" type="www" path="images" />
+	<Resource name="copy of _off.gif" type="www" path="images" />
+	<Resource name="dark_box_bottom2.gif" type="www" path="images" />
+	<Resource name="dashvert.gif" type="www" path="images" />
+	<Resource name="eho-31x31.jpg" type="www" path="images" />
+	<Resource name="eho-62x62.jpg" type="www" path="images" />
+	<Resource name="emarketpalcebannerlocater.gif" type="www" path="images" />
+	<Resource name="end.gif" type="www" path="images" />
+	<Resource name="equalhousing.gif" type="www" path="images" />
+	<Resource name="file.gif" type="www" path="images" />
+	<Resource name="folder.gif" type="www" path="images" />
+	<Resource name="fullbanner.gif" type="www" path="images" />
+	<Resource name="globalmap.gif" type="www" path="images" />
+	<Resource name="grgshortheader.gif" type="www" path="images" />
+	<Resource name="iconemail.gif" type="www" path="images" />
+	<Resource name="iconsave.gif" type="www" path="images" />
+	<Resource name="iconsearch.gif" type="www" path="images" />
+	<Resource name="images_nav-bg.png" type="www" path="images" />
+	<Resource name="lighttemplate7_blue.jpg" type="www" path="images" />
+	<Resource name="lighttemplate7_bluet.jpg" type="www" path="images" />
+	<Resource name="loginlogo.gif" type="www" path="images" />
+	<Resource name="logo.gif" type="www" path="images" />
+	<Resource name="menutile.gif" type="www" path="images" />
+	<Resource name="midbanner.gif" type="www" path="images" />
+	<Resource name="mike.gif" type="www" path="images" />
+	<Resource name="mortgage_off.gif" type="www" path="images" />
+	<Resource name="mrislogo.gif" type="www" path="images" />
+	<Resource name="nav-ctrl.png" type="www" path="images" />
+	<Resource name="nophoto.gif" type="www" path="images" />
+	<Resource name="nophotomedium.gif" type="www" path="images" />
+	<Resource name="nophotosmall.gif" type="www" path="images" />
+	<Resource name="phone.gif" type="www" path="images" />
+	<Resource name="photo.gif" type="www" path="images" />
+	<Resource name="processing.gif" type="www" path="images" />
+	<Resource name="qlogo.gif" type="www" path="images" />
+	<Resource name="qsbutton.gif" type="www" path="images" />
+	<Resource name="rightbanner.gif" type="www" path="images" />
+	<Resource name="rule.gif" type="www" path="images" />
+	<Resource name="samson-bird-bullet.gif" type="www" path="images" />
+	<Resource name="samson1_leftad.gif" type="www" path="images" />
+	<Resource name="samson1_logo.gif" type="www" path="images" />
+	<Resource name="samson1_rightad.gif" type="www" path="images" />
+	<Resource name="samson1_slogo.gif" type="www" path="images" />
+	<Resource name="samson1_slogo2.gif" type="www" path="images" />
+	<Resource name="samson1_slogo3.gif" type="www" path="images" />
+	<Resource name="samson_logo.gif" type="www" path="images" />
+	<Resource name="search_off.gif" type="www" path="images" />
+	<Resource name="silde-nav.png" type="www" path="images" />
+	<Resource name="silde-nav2.png" type="www" path="images" />
+	<Resource name="slide-bg.png" type="www" path="images" />
+	<Resource name="space.gif" type="www" path="images" />
+	<Resource name="spacer.gif" type="www" path="images" />
+	<Resource name="staicflash.gif" type="www" path="images" />
+	<Resource name="straight.gif" type="www" path="images" />
+	<Resource name="tee.gif" type="www" path="images" />
+	<Resource name="thumbnailunknown.gif" type="www" path="images" />
+	<Resource name="vertline.gif" type="www" path="images" />
+	<Resource name="virtualtour.gif" type="www" path="images" />
+	<Resource name="virtualtour.jpg" type="www" path="images" />
+	<Resource name="virtualtoursmall.gif" type="www" path="images" />
+	<Resource name="webtrust.gif" type="www" path="images" />
+	<Resource name="t5.blue.css" type="www" path="legacystyles" />
+	<Resource name="t5.green.css" type="www" path="legacystyles" />
+	<Resource name="t5.purple.css" type="www" path="legacystyles" />
+	<Resource name="t5.yellow.css" type="www" path="legacystyles" />
+	<Resource name="vssver.scc" type="www" path="legacystyles" />
+	<Resource name="background1.jpg" type="www" path="lightech" />
+	<Resource name="blue_button.jpg" type="www" path="lightech" />
+	<Resource name="justaskamylogo.gif" type="www" path="lightech" />
+	<Resource name="l_f_bldg.jpg" type="www" path="lightech" />
+</Collection>
